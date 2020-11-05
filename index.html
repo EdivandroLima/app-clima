@@ -52,7 +52,7 @@
 				desTempo['x50n']='névoa '
 			
 			let xmlHttp= new XMLHttpRequest()
-			xmlHttp.open('GET', 'http://api.openweathermap.org/data/2.5/weather?q='+cidade+'&appid=2133edcc0e3167c3efad530b0cb779c5')
+			xmlHttp.open('GET', 'https://api.openweathermap.org/data/2.5/weather?q='+cidade+'&appid=2133edcc0e3167c3efad530b0cb779c5')
 
 			xmlHttp.onreadystatechange= () => {
 
@@ -102,7 +102,7 @@
 				<div class="col-md-8 mx-auto">
 					<div class="my-3 py-5 bg-white border p-3 text-center rounded" id="dadosClima">
 						<!-- Dados -->
-						<h3 class="px-3 py-5 text-uppercase">Veja o tempo na sua cidade</h3>
+						<h3 class="px-3 py-5 text-uppercase">Veja o clima na sua cidade</h3>
 					</div>
 				</div>
 			</div><!-- /row -->
