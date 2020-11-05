@@ -1,7 +1,7 @@
 # App Clima
 Aplicação informa o tempo agora usando a API do OpenWeatherMap
 
-[Clique aqui]() para ver como ficou.
+[Clique aqui](https://app-clima-nu.vercel.app/) para ver como ficou.
 
 ## Ferramentas utilizadas
 - [x] HTML
